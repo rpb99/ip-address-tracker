@@ -95,7 +95,9 @@ function App() {
                   <div>
                     {location.city}, {location.country}{' '}
                   </div>
-                  <div className="text-left">{location.postalCode}</div>
+                  <div className="text-left ml-2 lg:ml-0">
+                    {location.postalCode}
+                  </div>
                 </div>
               </div>
               <span className="border-r-2"></span>
